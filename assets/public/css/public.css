@@ -1,0 +1,254 @@
+/* button */
+
+.btn
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: gudea;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+}
+
+.btn-login
+{
+	background: linear-gradient(#8BC34A,#339a37);
+	color: #fff;
+}
+
+.btn-daftar
+{
+    background: linear-gradient(#e9316f,#b92d5d);
+    color: #fff;
+}
+
+/* regular */
+
+html
+{
+    overflow-x: hidden;
+}
+
+input:focus 
+{
+    outline-width: 0;
+}
+
+.sp-input-text
+{
+	width: 96%;
+    border-radius: 3px;
+    border: none;
+    border: 1px solid#b0b0b0;
+    padding: 7px;
+    font-family: gudea;
+    font-size: 15px;
+}
+
+ul
+	{
+		padding:0px;
+		margin:0px;
+	}
+
+li	
+	{
+		list-style: none;
+	}
+
+a
+	{
+		text-decoration: none;
+	}
+
+i.ic
+	{
+		margin-right: 15px;
+	}
+
+/****************************************
+ * LOGIN REGISTER
+*****************************************/
+
+#regis-login-close
+{
+    padding: 2px;
+    background: #E91E63;
+    display: inline-block;
+    color: #fff;
+    font-family: baloo;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-size: 23px;
+    margin: 8px;
+    cursor: pointer;
+    border-radius: 100px;
+}
+
+#regis-login-close:hover
+{
+	transition: 0.3s;
+	color: #E91E63;
+	background:#fff;
+}
+
+#regis-login-content-wrapper
+{
+    width: 450px;
+    padding: 19px;
+    background: #fff;
+    margin: auto;
+    border-radius: 2px;
+    padding-bottom: 20px;
+}
+
+/****************************************
+ * HEAD 
+*****************************************/
+
+#head-sp
+{
+    width: 178px;
+    height: 100%;
+    background: #1e1d1d;
+    display: inline-block;
+    position: fixed;
+    z-index: 9999;
+    overflow: hidden;
+}
+
+#head-sp .head-sp-logo
+{
+	padding: 5px;
+    font-family: baloo;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    background: linear-gradient(#ff045a,#E91E63);
+}
+
+/****************************************
+ * HEAD MENU
+*****************************************/
+
+.head-user-sign
+{
+    height: 50px;
+    width: 100%;
+    overflow: hidden;
+    background: #222;
+}
+
+.head-user-sign .photo
+{
+    width: 50px;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.head-user-sign .username
+{
+    width: 66%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    color: #fff;
+    font-family: gudea;
+    font-size: 14px;
+    padding-top: 8px;
+}
+
+.head-menu-sp
+{
+	margin-top: 20px;
+}
+
+.head-menu-sp
+nav a li
+{
+    background: #222222;
+    color: #fff;
+    font-family: gudea;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    -webkit-font-smoothing: subpixel-antialiased;
+    border-bottom: 1px solid#111;
+    box-sizing: border-box;
+    transition: 0.2s;
+}
+
+.head-menu-sp
+nav a li:hover
+{
+	background: #E91E63;
+	transition: 0.2s;
+	padding-left: 10px;
+}
+
+/****************************************
+ * content
+*****************************************/
+
+#content-wrapper-sp
+{
+    width: 1147px;
+    height: 100%;
+    background: #ffffff;
+    margin-left: 15%;
+}
+
+/* track */
+
+.track
+{
+    width: 200px;
+    height: 200px;
+    margin-right: 9px;
+    display: inline-block;
+    margin-top: 7px;
+    position: relative;
+}
+
+.track li
+{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background: #fff;
+    background-image:url(http://localhost/soundp/assets/public/img/play.png);
+    background-size: cover;
+    margin-left: 2%;
+    margin-top: 2%;
+    border-radius: 100%;
+}
+
+.track:nth-child(2);
+{
+    background: #111;
+}
+
+.track .active
+{
+    background: #f21460;
+    background-image: url(http://localhost/soundp/assets/public/img/stop.png);
+    background-size: cover;
+}
+
+.track-name
+{
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    background: linear-gradient(rgba(255, 4, 90, 0.05),rgba(233, 30, 99, 0.57));
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    padding: 5px;
+    font-family: gudea;
+    font-size: 14px;
+    color: #fff;
+}

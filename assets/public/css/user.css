@@ -1,0 +1,161 @@
+/** profile **/
+
+/* cover */
+.user-head-cover-wrapper
+{
+    width: 1147px;
+    height: 213px;
+    background: #3f3f3f;
+}
+
+.user-head-cover-wrapper .user-head-photo
+{
+    width: 150px;
+    height: 150px;
+    margin-left: 54px;
+    margin-top: 41px;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 100%;
+    background: #111;
+}
+
+.user-head-cover-wrapper .user-head-username
+{
+    position: absolute;
+    margin-left: 215px;
+    margin-top: 49px;
+    background: rgba(0, 0, 0, 0.49);
+    color: #fff;
+    font-family: gudea;
+    font-size: 23px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.user-menu-sp
+{
+    height: 40px;
+    width: 100%;
+    background: #f1f1f1;
+    border-bottom: 1px solid#d2d2d2;
+}
+
+.user-menu-sp .user-menu-left-sp
+{
+    display: inline-block;
+    width: 40%;
+    height: 100%;
+}
+
+.user-menu-sp .user-menu-left-sp
+nav ul a li
+{
+    display: inline-block;
+    margin-top: 14px;
+    padding-bottom: 5px;
+    font-family: gudea;
+    color: #000;
+    margin-left: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-bottom: 1px solid#d2d2d2;
+    font-size: 17px;
+    transition: 0.2s;
+}
+
+.user-menu-sp .user-menu-left-sp
+nav ul a li:hover
+{
+    transition: 0.2s;
+    color: #f01660;
+    border-bottom: 1px solid#f4125f;
+}
+
+.user-menu-sp .user-menu-left-sp
+nav ul a li.active
+{
+    color: #f01660;
+    border-bottom: 1px solid#f4125f;
+}
+
+.user-menu-sp .user-menu-right-sp
+{
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+    margin-left: 218px;
+}
+
+.user-menu-sp .user-menu-right-sp .user-change-cover
+{
+    background: #fb0a5c;
+    border: 0px;
+    padding: 5px;
+    color: #fff;
+    font-family: gudea;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.user-menu-sp .user-menu-right-sp .user-change-cover:hover
+{
+    background: rgb(254, 140, 18);
+    transition: 0.2s;
+}
+
+.user-menu-sp .user-menu-right-sp .user-change-cover:active
+{
+    background: green;
+}
+
+.user-menu-sp .user-menu-right-sp .user-change-pprofile
+{
+    background: #fb0a5c;
+    border: 0px;
+    padding: 5px;
+    color: #fff;
+    font-family: gudea;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.user-menu-sp .user-menu-right-sp .user-change-pprofile:hover
+{
+    background: rgb(254, 140, 18);
+    transition: 0.2s;
+}
+
+.user-menu-sp .user-menu-right-sp .user-change-pprofile:active
+{
+    background: green;
+}
+
+.user-content-sp
+{
+width: 1138px;
+    margin-top: 15px;
+    padding: 5px;
+    position: relative;
+}
+
+.user-content-sp .user-left-content-sp
+{
+    width: 74%;
+}
+
+
+/* upload */
+
+#user-upload-content-wrapper
+{
+	width: 800px;
+	height: 450px;
+	border-radius: 2px;
+	padding: 10px;
+	background: #fff;
+	margin: auto;
+}
